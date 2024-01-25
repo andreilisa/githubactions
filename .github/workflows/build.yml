@@ -1,5 +1,5 @@
 
-name: Demo Java CI
+name: Example of simple Java CI
 
 on:
   push:
@@ -19,5 +19,5 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-    - name: Clean 
-      run: gradle clean
+    - name: Build 
+      run: gradle build
