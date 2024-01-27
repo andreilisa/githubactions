@@ -18,7 +18,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'io.jsonwebtoken:jjwt:0.12.2' // to test dependabot for creating PR
+    // to test dependabot for creating PR
+    implementation 'io.jsonwebtoken:jjwt:0.12.2'
+    implementation 'org.apache.commons:commons-math3:3.2'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
