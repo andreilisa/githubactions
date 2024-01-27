@@ -1,4 +1,4 @@
-name: Add comment
+name: Add comment on Issue
 on:
   issues:
     types:
@@ -16,4 +16,4 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           BODY: >
-            Thank you for opening this issue
+            Thank you for opening this issue "%NUMBER%"
