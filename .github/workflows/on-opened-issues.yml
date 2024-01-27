@@ -16,4 +16,4 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           BODY: >
-            Thank you for opening this issue "%NUMBER%"
+            Thank you for opening this issue "$NUMBER"
