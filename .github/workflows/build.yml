@@ -3,9 +3,11 @@ name: Example of simple Java CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+        - main
   pull_request:
-    branches: [ "*" ]
+    branches:
+          - *
 
 jobs:
   build:
