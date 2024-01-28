@@ -3,16 +3,17 @@ tag-template: 'Draft'
 categories:
   - title: ' New Features'
     labels:
-      - 'type:features'
+      - 'features'
+      - 'tests'
   - title: ' Bugs Fixes'
     labels:
-      - 'type:fix'
+      - 'fix'
   - title: ' Documentation'
     labels:
-      - 'type:documentation'
+      - 'documentation'
   - title: ' Configuration'
     labels:
-      - 'type:config'
+      - 'config'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
   ## Changes
