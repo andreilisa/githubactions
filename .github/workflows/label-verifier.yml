@@ -7,7 +7,7 @@ on:
        - unlabeled
 jobs:
   triage:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: zwaldowski/match-label-action@v2
         with:

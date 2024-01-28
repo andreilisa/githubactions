@@ -8,7 +8,7 @@ on:
 jobs:
   telegram-notification:
     if: ${{ github.actor != 'dependabot[bot]' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Telegram Notify
         uses: appleboy/telegram-action@master
