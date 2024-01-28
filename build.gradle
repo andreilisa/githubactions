@@ -20,7 +20,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     // to test dependabot for creating PR
     implementation 'io.jsonwebtoken:jjwt:0.12.2'
-    implementation 'org.apache.commons:commons-math3:3.2'
+    implementation 'org.apache.commons:commons-math3:3.6.1'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
