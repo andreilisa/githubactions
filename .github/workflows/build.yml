@@ -1,11 +1,8 @@
-
 name: Example of simple Java CI
-
 on:
   push:
     branches:
         - main
-
 jobs:
   build:
 
