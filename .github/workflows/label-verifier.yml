@@ -13,4 +13,4 @@ jobs:
         with:
           allowed: 'fix, features, documentation, tests, config, dependencies'
   reusable-invoke:
-    uses: https://github.com/andreilisa/githubactions/actions/workflows/reusable-workflow.yml@main
+    uses: ./.github/workflows/reusable-workflow.yml@main
