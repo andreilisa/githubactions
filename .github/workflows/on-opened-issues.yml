@@ -17,5 +17,3 @@ jobs:
           NUMBER: ${{ github.event.issue.number }}
           BODY: >
             Thank you for opening this issue
-  reusable-invoke:
-    uses: ./.github/workflows/reusable-workflow.yml
