@@ -18,4 +18,4 @@ jobs:
           BODY: >
             Thank you for opening this issue
   reusable-invoke:
-    uses: ./.github/workflows/reusable-workflow.yml@main
+    uses: ./.github/workflows/reusable-workflow.yml
