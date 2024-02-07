@@ -26,7 +26,7 @@ jobs:
   weather:
     runs-on: ubuntu-22.04
     steps:
-      - uses: andreilisa/python-custom-actions@v3
+      - uses: andreilisa/python-custom-actions@v4
         with:
           open_weather_key: ${{ env.OPEN_WEATHER_KEY }}
           input_city: ${{ env.INPUT_CITY }}
