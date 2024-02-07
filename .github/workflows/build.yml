@@ -22,3 +22,12 @@ jobs:
 
     - name: Execute Gradle build
       run: ./gradlew build
+
+  weather:
+    needs: build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: andreilisa/python-custom-actions@v1.0.0
+        with:
+          open_weather_key: ${{ env.OPEN_WEATHER_KEY }}
+          input_city: ${{ env.INPUT_CITY }}
