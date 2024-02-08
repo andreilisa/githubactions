@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Weather Call
-        uses: andreilisa/python-custom-actions@v1.0.1
+        uses: andreilisa/python-custom-actions@v1.0
         with:
-          city_name: ${{ env.CITY_NAME }}
+          city_name: ${{ vars.CITY_NAME }}
           open_weather_key: ${{ secrets.OPEN_WEATHER_KEY }}
