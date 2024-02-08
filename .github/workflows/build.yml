@@ -31,7 +31,7 @@ jobs:
         uses: andreilisa/python-custom-actions@v1.2
         with:
           open_weather_key: ${{ env.OPEN_WEATHER_KEY }}
-          input_city: ${{ env.INPUT_CITY }}
+          city_name: ${{ env.INPUT_CITY_NAME }}
       - name: Check outputs and modified files
         run: |
           "${{ steps.weather.outputs.weather }}"
