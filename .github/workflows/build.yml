@@ -26,7 +26,12 @@ jobs:
   weather:
     runs-on: ubuntu-22.04
     steps:
-      - uses: andreilisa/python-custom-actions@v1
+      - name: Weather Call
+        id: weather
+        uses: andreilisa/python-custom-actions@v1
         with:
           open_weather_key: ${{ env.OPEN_WEATHER_KEY }}
           input_city: ${{ env.INPUT_CITY }}
+      - name: Check outputs and modified files
+        run: |
+          "${{ steps.weather.outputs.weather }}"    
