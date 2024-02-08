@@ -34,4 +34,4 @@ jobs:
           input_city: ${{ env.INPUT_CITY }}
       - name: Check outputs and modified files
         run: |
-          "${{ steps.weather.outputs.weather }}"    
+          "${{ steps.weather.outputs.weather }}"
