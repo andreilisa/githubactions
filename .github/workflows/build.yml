@@ -29,5 +29,5 @@ jobs:
       - name: Weather Call
         uses: andreilisa/python-custom-actions@v1.0.1
         with:
-          city_name: ${{ vars..CITY_NAME }}
+          city_name: ${{ vars.CITY_NAME }}
           open_weather_key: ${{ secrets.OPEN_WEATHER_KEY }}
