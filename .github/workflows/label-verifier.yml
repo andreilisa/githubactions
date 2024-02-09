@@ -5,6 +5,7 @@ on:
        - opened
        - labeled
        - unlabeled
+
 jobs:
   triage:
     runs-on: ubuntu-22.04
